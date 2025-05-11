@@ -8,7 +8,7 @@ export default function MindMapGPT() {
   const generateMindMap = async () => {
     const res = await fetch("/api/generate", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json" },  kkkkkkkk
       body: JSON.stringify({ topic })
     });
     const data = await res.json();
