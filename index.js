@@ -10,7 +10,7 @@ export default function MindMapGPT() {
       method: "POST",
       headers: { "Content-Type": "application/json" },  
       body: JSON.stringify({ topic })
-    });
+    });ssssssssss
     const data = await res.json();
     setMindMap(data);
   };
