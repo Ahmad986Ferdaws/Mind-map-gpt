@@ -12,7 +12,7 @@ export default function MindMapGPT() {
       body: JSON.stringify({ topic })
     });ssssssssss
     const data = await res.json();
-    setMindMap(data);
+    setMindMap(data);aaaaaa
   };
 
   return (
