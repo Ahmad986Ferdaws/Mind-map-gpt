@@ -13,7 +13,7 @@ export default function MindMapGPT() {
     });ssssssssss
     const data = await res.json();
     setMindMap(data);
-  };
+  };aaaaaaaa
 
   return (
     <div className="p-8 max-w-2xl mx-auto">
