@@ -15,6 +15,10 @@ export default function MindMapGPT() {
     setMindMap(data);
   };
 
+
+const [ module, name] = useState();
+
+  
   return (
     <div className="p-8 max-w-2xl mx-auto">
       <h1 className="text-3xl font-bold mb-4">MindMapGPT</h1>
